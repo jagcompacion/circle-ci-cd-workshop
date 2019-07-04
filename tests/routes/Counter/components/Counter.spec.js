@@ -23,7 +23,7 @@ describe('(Component) Counter', () => {
   })
 
   it('renders with an <h2> that includes Counter label.', () => {
-    expect(_wrapper.find('h2').text()).to.match(/Counter:/)
+    expect(_wrapper.find('h3').text()).to.match(/Counter:/)
   })
 
   it('renders {props.counter} at the end of the sample counter <h2>.', () => {
